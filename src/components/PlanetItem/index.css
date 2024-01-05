@@ -1,0 +1,60 @@
+/* Write your CSS here */
+
+.planet-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.planet-image {
+  width: 250px;
+  height: 200px;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 400;
+  color: #f1f5f9;
+  margin-top: 30px;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #f8fafc;
+  text-align: center;
+  width: 80%;
+}
+
+@media screen and (min-width: 728px) and (max-width: 1200px) {
+  .planet-image {
+    width: 300px;
+    height: 250px;
+  }
+
+  .name {
+    font-size: 26px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .planet-image {
+    width: 350px;
+    height: 300px;
+  }
+
+  .name {
+    font-size: 28px;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+}
